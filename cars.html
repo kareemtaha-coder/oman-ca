@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Catalog - Oman Car Finder</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">OmanCars</a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/cars.html" class="active">Cars</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Cars Catalog -->
+    <section class="cars-catalog">
+        <div class="container">
+            <h1 data-aos="fade-up">Cars Catalog</h1>
+            
+            <!-- Car Comparison Table -->
+            <div class="comparison-table" data-aos="fade-up">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Features</th>
+                            <th>Economy</th>
+                            <th>Luxury</th>
+                            <th>Sports</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Starting Price</td>
+                            <td>OMR 5,000</td>
+                            <td>OMR 25,000</td>
+                            <td>OMR 45,000</td>
+                        </tr>
+                        <tr>
+                            <td>Engine Options</td>
+                            <td>1.5L - 2.0L</td>
+                            <td>2.0L - 4.0L</td>
+                            <td>3.0L - 6.0L</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Key Features</td>
+                            <td>Basic Safety</td>
+                            <td>Advanced Safety</td>
+                            <td>Performance</td>
+                        </tr>
+                        <tr>
+                            <td>Fuel Efficient</td>
+                            <td>Premium Comfort</td>
+                            <td>Track Ready</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Car Grid -->
+            <div class="car-grid">
+                <!-- Car cards will be dynamically populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Your trusted source for car information in Oman since 2024.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/cars.html">Cars</a>
+                            <ul>
+                                <li><a href="#">New Cars</a></li>
+                                <li><a href="#">Used Cars</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Email: info@omancars.com</p>
+                    <p>Phone: +968 1234 5678</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
